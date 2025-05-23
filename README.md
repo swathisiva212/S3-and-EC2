@@ -1,76 +1,49 @@
-# Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com
+ ## Aim:
+ To Create S3 bucket and EC2 Instances for Linux and Windows.
+ ## S3 Bucket:
+ An S3 bucket is a cloud storage container provided by Amazon Web Services (AWS) throughits Simple Storage Service (S3). It is used to store and organize data, such as files, images,backups, and more, in a scalable, secure, and durable way.
+## EC2 Instance:
+  EC2 Instance:
+ An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2)—ascalable compute platform designed for running applications on the Amazon Web Services(AWS) cloud.EC2 offers a wide range of instance types and sizes, each providing differentconfigurations of CPU (central processing unit),Memory,Storag,,Networking resources.Theseconfigurations allow users to choose instances that best match their specific applicationrequirements and workloads—whether for general-purpose use, compute-intensive tasks,memory-heavy processing, or high-speed networking. 
 
-## AIM:
-To create a warehouse application in salesforce.com
+  ## Procedure:
+ Step 1:
+● Log in to AWS Console
 
-## Procedure
+ Step 2:
+● Create an S3 Bucket
+● Navigate to the S3 service.
+● Click on Create bucket.
+● Enter a Bucket name and select a Region.
+● Configure Bucket settings as required (e.g., versioning, public access).
+● Click on Create bucket to finalize.
 
-### Types of Applications in SFDC
+ Step 3:
+● Create an EC2 Instance (Linux)
+● Go to the EC2 service.
+● Click on Launch Instance.
+● Select an Amazon Machine Image (AMI) for Linux (Amazon Linux 2).
+● Choose an Instance Type (e.g., t2.micro for free tier).
+● Configure Instance Details, Storage, and Security Group. 
+● Review and click Launch with a key pair (or create one if needed).
 
-In Salesforce.com, we have two types of Applications they are
-1.    Classic Apps and
-2.    Lightning Apps.
+ Step 4:
+● Create an EC2 Instance (Windows)
+● Return to the EC2 service and click Launch Instance.
+● Select a Windows AMI (e.g., Windows Server 2019).
+● Choose the Instance Type.
+● Configure Instance Details, Storage, and Security Group.
+● Review and launch with a key pair (for future login).
 
-In Salesforce we can create, manage and customise both applications according to user requirement.
-
-## PROCEDURE
-
-### Step 1: Log into your developer
-![Ex2-1](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/93b506fe-5542-4036-a344-939cbe7e67f3)
-
-### Step 2: Click the Setup Link (upper-right corner).
- ![ex2-2](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/183746f5-0293-4cd4-bece-09eb8b7ed11e)
-
-
-### Step 3: In the Left Navigation, Platform tools, then click App Manager
-![ex2-3](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/e5f4f615-d819-40cd-92d6-9d61da20122d)
-
-### Step 4: Click New Lightning App
-
-![ex2-4](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/76777c8e-433b-439d-9813-f0eafa73acb4)
-
-### Step 5: 
-After Next, define the fields for the custom app.
-•    App Label: Search Service.
-•    App Name: Search Service.
-•    Description: Search Service is one app where we manage all the business data and catalogues.
- ![ex2-5](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/e82870fd-7400-4bf6-9dfe-622df1825574)
-
-
-### Step 6: Choose the Image Source for the Custom App Logo.
-
-Note: Before inserting an image for the logo you need to use the following procedure to add an image to the image gallery.
- 
-### Step 7: Select Console Option
-
-
-![ex2-7](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/f4401b49-8fc7-418a-ae18-1ec61d115739)
+ Step 5:
+● Verify and Connect to Instances.
+● Verify the status of both instances in the EC2 dashboard.
+● Connect to the Linux instance using SSH.
+● Connect to the Windows instance using RDP. 
+## output:
+![image](https://github.com/user-attachments/assets/98375662-911e-45c9-b73e-4864e5b2cd4a)
 
 
-
-### Step 8: Select a utility item
-
-
-![ex2-8](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/9f6179b9-a990-4edc-87a1-f9a5ecdbec0c)
-
-
-
-### Step 9: Select any of the user profiles. Then Click Save &Finish
-
-
-![ex2-9](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/454ff962-a7a0-41c3-9cd0-0b3e638f117b)
-
- 
-### Step 10: A new app will be created and displayed
-
-
-
-![ex2-10](https://github.com/DrMalathiSaravanan/Ex-02-Creating-a-Warehouse-Application-in-SalesForce.com/assets/139700114/9be0d550-d6ad-434e-82bb-74f9c05bfd2f)
-
-
-
-
-## RESULT:
-
-Thus, creating a Warehouse Application in SalesForce.com is successfully created.
-
+## Result:
+ Successfully created an S3 bucket and EC2 instances for both Linux and Windows,
+demonstrating cloud resource management on AWS 

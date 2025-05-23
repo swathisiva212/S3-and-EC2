@@ -53,8 +53,11 @@
 
  Step 5:
 ● Verify and Connect to Instances.
+
 ● Verify the status of both instances in the EC2 dashboard.
+
 ● Connect to the Linux instance using SSH.
+
 ● Connect to the Windows instance using RDP. 
 ## output:
 ![image](https://github.com/user-attachments/assets/98375662-911e-45c9-b73e-4864e5b2cd4a)
